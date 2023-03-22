@@ -1,0 +1,32 @@
+// Responsive Web Design - É uma técnica de desenvolvimento de sites que permite que o site se adapte a diferentes tamanhos de tela, como desktops, tablets e smartphones.
+
+
+// Media Queries - É uma técnica que permite que você aplique estilos CSS diferentes para diferentes tamanhos de tela.
+//Mobile First
+.hide-on-desktop {
+    display: block;
+}
+
+.hide-on-mobile {
+    display: none;
+}
+
+
+//tablet
+@media (min-width: 768px){
+
+}
+//desktop
+@media (min-width: 992px){
+    .hide-on-desktop {
+        display: none;
+    }
+
+    .hide-on-mobile {
+        display: block;
+    }
+}
+//large screen
+@media (min-width: 2220px) {
+
+}
