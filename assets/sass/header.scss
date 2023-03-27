@@ -4,13 +4,50 @@
 // Media Queries - É uma técnica que permite que você aplique estilos CSS diferentes para diferentes tamanhos de tela.
 //Mobile First
 .hide-on-desktop {
-    display: block;
+    display: flex;
 }
 
 .hide-on-mobile {
     display: none;
 }
+.show-on-large-screen {
+    display: none;
+}
 
+.header-top-site > nav {
+    font-family: oswald;
+    font-size: 1.5em;
+    align-items: center;
+    height: 130px;
+    background-color: #10111F;
+    color: #fff;
+    & .block-logo {
+        display: flex;
+        flex-basis: 40%;
+        align-items: center;
+        border: solid 1px white;
+        justify-content: space-around;
+        & #logotipo {
+            width: 200px;
+            height: 200px;
+            border: solid 1px red;
+        }
+    }
+    & ul {
+        margin:0;
+        padding: 0;
+        & > li  {
+            display: inline-flex;
+            list-style: none;
+            min-width: 80px;
+            text-align: center;
+        }
+    }
+    &  a {
+        color: #fff;
+        text-decoration: none;
+    }
+}
 
 //tablet
 @media (min-width: 768px){
@@ -23,7 +60,9 @@
     }
 
     .hide-on-mobile {
-        display: block;
+        display: flex;
+        border: solid 1px yellow;
+        justify-content: space-between;
     }
 }
 //large screen
