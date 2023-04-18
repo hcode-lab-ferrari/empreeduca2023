@@ -2,18 +2,228 @@
 <html lang="pt-br">
 
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Java Coffee</title>
     <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
 </head>
 
 <body>
-    <header>
-        <nav class="hide-on-desktop">Tablet e Mobile - Não aparece no desktop</nav>
-        <nav class="hide-on-mobile">Desktop - Não aparece no celular</nav>
-        <nav class="show-on-large-screen">Large Screen - Somente telas gigantes</nav>
+    <header class="header-top-site">
+        <nav class="hide-on-desktop">
+            <div>
+                <div id="logotipo">
+                    <a href="https://www.youtube.com/watch?v=OmXJqHe1c2Q">
+                    <img id="logo" src="assets/images/Logo.png">
+                </a>
+            </div>
+            <div class="icons-image">
+                <ul>
+                    <li>
+                        <a href="/more" id="menu">
+                            <span class="material-symbols-outlined">
+                            menu
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/search" id="lupa">
+                            <span class="material-symbols-outlined">
+                            search
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/phone" id="phone">
+                            <span class="material-symbols-outlined">
+                                call
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/profile" id="profile">
+                            <span class="material-symbols-outlined">
+                                    account_circle
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/shop" id="shop">
+                            <span class="material-symbols-outlined">
+                                shopping_cart
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+        <nav class="hide-on-mobile">
+            <div>
+                <ul class="icons-image">
+                    <li>
+                        <a href="/search">
+                            <span class="material-symbols-outlined">
+                        search
+                        </span>
+                    </a>
+                </li>
+                    <li>
+                        <a href="/phone">
+                            <span class="material-symbols-outlined">
+                        call
+                        </span>
+                    </a>
+                </li>
+                </ul>
+            </div>
+            <div class="block-logo">
+                <ul class="links">
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+                    <li>
+                        <a href="/store">Coffee Store</a>
+                    </li>
+                </ul>
+                <div id="logotipo">
+                    <img id="logo" src="assets/images/Logo.png">
+                </div>
+                <ul class="links">
+                    <li>
+                        <a href="/cold">Cold Coffee</a>
+                    </li>
+                    <li>
+                        <a href="/more">More</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <ul class="icons-image">
+                    <li>
+                        <a href="/profile" class="profile">
+                        <span class="material-symbols-outlined">
+                        account_circle
+                        </span>
+                    </a>
+                </li>
+                    <li><a href="/shop" class="shop">
+                        <span class="material-symbols-outlined">
+                        shopping_cart
+                        </span>
+                    </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <nav class="show-on-large-screen">Larg Screen - Somente telas gigantes</nav>
     </header>
+    <section class="full-banner">
+        <div class="destak">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="assets/images/xícara.jpg" class="d-block w-100">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/images/coffee.png" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <div id="butão1">
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <img src="assets/images/seta-esquerda.png" id="left">
+                </button>
+               </div>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <img src="assets/images/seta-direita.png" >
+                </button>
+              </div>
+        </div>
+    </section>
+
+    <section class="parte2">
+        <div id="copo">
+            <img src="assets/images/copo.png" id="copo2">
+            <h3 class="tx1">
+                ALL FLAVOURS COFFEE
+            </h3>
+            <h3 class="tx2">
+                FLAT UP TO 30% OFF
+            </h3>
+          </div>
+          <div class="cold-coffee">
+            <img src="assets/images/Group 24.png" id="icon-cold-coffee">
+            <h4>
+                Cold Coffee
+            </h4>
+            <p>On this area , you will find many itens and offers<br> about cold coffee and locations of coffee shops<br> that serve this type of coffee. </p>
+          </div>
+          <div class="grinder">
+            <img src="assets/images/Group 32.png" id="icon-grinder">
+            <h4>
+                Grinder
+            </h4>
+            <p>On this area, you will find many itens and offers<br> about coffee grinding machines and stores that <br>sell this machines. </p>
+          </div>
+          <div class="coffee-bag">
+            <img src="assets/images/Group 26.png" id="icon-coffee-bag">
+            <h4>
+                Coffee Bag
+            </h4>
+            <p>On this area, you will find many itens and offers<br> about coffee bags and locations of markets and <br> stores with promotions of coffee bags.</p> 
+          </div>
+          <div class="cappuccino">
+            <img src="assets/images/Group 33.png" id="icon-cappuccino">
+            <h4>
+                Cappuccino
+            </h4>
+            <p>On this area, you will find many itens and offers<br> about cappuccinos and locations of stores that <br>sell fantastic cappuccinos.</p>
+          </div>
+          <div class="machine">
+            <img src="assets/images/Group 31.png" id="icon-machine">
+            <h4>
+                Machine
+            </h4>
+            <p>On this area, you will find many itens and offers<br> about coffee machines and stores and markets <br>that sell this machines.</p>
+          </div>
+          <div class="coffee-pot">
+            <img src="assets/images/Group 30.png" id="icon-coffee-pot">
+            <h4>
+                Coffee Pot
+            </h4>
+            <p>On this area, you will find many itens and offers<br> about coffee pots and stores and markets that <br>sell good pots.</p>
+          </div>
+    </section>
+
+    <section class="parte3">
+        <div class="fundao">
+            <img src="assets/images/fundão1.jpg" id="fundão2">
+        </div>
+        <div class="grão">
+            <img src="assets/images/grão-site2.png">
+        </div>
+        <div class="parte3-topo">
+            <h2>
+                WE LOVE TREND
+                <img src="assets/images/pequena-xícara.png" id="icon-p3-xicara">
+            </h2>
+            <div class="feature">
+                <a href="https://www.youtube.com/watch?v=BNz1pmo7Sd4" class="aa">FEATURE</a>
+                </div>
+            <div class="best-seller">
+                <a href="https://www.youtube.com/watch?v=r_L45gwnxgw"></a>
+            </div>
+        </div>
+       
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
 </body>
 
 </html>
