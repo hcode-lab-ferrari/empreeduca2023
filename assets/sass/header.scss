@@ -1032,7 +1032,155 @@ body {
             }
         }
     }
+    .img7-pt3{
+        & #coffeePot-img {
+            width: 250px;
+            position: absolute;
+            top: 2300px;
+            left: 855px;
+            display: block;
+            border: 50px solid rgb(20, 20, 20);
+            background-color: rgb(20, 20, 20);
+        }
+         & #content-editable{
+            position: absolute;
+            top: 2590px;
+            left: 855px;
+            color: #fff;
+            border: solid rgb(20, 20, 20);
+            border-right-width: 84px;
+            border-left-width: 80px;
+            background-color: rgb(20, 20, 20);
+            & #star1 {
+                position: absolute;
+                left: -10px;
+                top: -30px;
+                border: none;
+                outline: none;
+                padding: none;
+                color: white;
+                cursor: pointer;
+            }
+            & #star2 {
+                position: absolute;
+                left: 10px;
+                top: -30px;
+                cursor: pointer;
+            }
+            & #star3 {
+                position: absolute;
+                left: 30px;
+                top: -30px;
+                cursor: pointer;
+            }
+            & #star4 {
+                position: absolute;
+                left: 50px;
+                top: -30px;
+                cursor: pointer;
+            }
+            & #star5 {
+                position: absolute;
+                left: 70px;
+                top: -30px;
+                cursor: pointer;
+            }
+            & .txt-img7 {
+                position: absolute;
+                top: -2px;
+                left: -80px;
+                color: #fff;
+                border: solid rgb(20, 20, 20);
+                border-right-width: 88px;
+                border-top-width: 12px;
+                border-left-width: 85px;
+                background-color: rgb(20, 20, 20);
+            }
+        }
+    }
 
+    .img8-pt3{
+        & #coffeeBag-img {
+            width: 250px;
+            position: absolute;
+            top: 2300px;
+            left: 1205px;
+            display: block;
+            border: 50px solid rgb(20, 20, 20);
+            background-color: rgb(20, 20, 20);
+        }
+         & #content-editable{
+            position: absolute;
+            top: 2590px;
+            left: 1205px;
+            color: #fff;
+            border: solid rgb(20, 20, 20);
+            border-right-width: 84px;
+            border-left-width: 80px;
+            background-color: rgb(20, 20, 20);
+            & #star1 {
+                position: absolute;
+                left: -10px;
+                top: -30px;
+                border: none;
+                outline: none;
+                padding: none;
+                color: white;
+                cursor: pointer;
+            }
+            & #star2 {
+                position: absolute;
+                left: 10px;
+                top: -30px;
+                cursor: pointer;
+            }
+            & #star3 {
+                position: absolute;
+                left: 30px;
+                top: -30px;
+                cursor: pointer;
+            }
+            & #star4 {
+                position: absolute;
+                left: 50px;
+                top: -30px;
+                cursor: pointer;
+            }
+            & #star5 {
+                position: absolute;
+                left: 70px;
+                top: -30px;
+                cursor: pointer;
+            }
+            & .txt-img8 {
+                position: absolute;
+                top: -2px;
+                left: -80px;
+                color: #fff;
+                border: solid rgb(20, 20, 20);
+                border-right-width: 83px;
+                border-top-width: 12px;
+                border-left-width: 85px;
+                background-color: rgb(20, 20, 20);
+            }
+        }
+    }
+   .seta-direita{
+    position: absolute;
+    top: 2700px;
+    left: 820px;
+    & #sd{
+        width: 40px;
+    }
+   }
+   .seta-esquerda{
+    position: absolute;
+    top: 2700px;
+    left: 750px;
+    & #se{
+        width: 40px;
+    }
+   }
 }
 
 .parte4 {
@@ -1040,155 +1188,147 @@ body {
         & #starbucks {
             width: 550px;
             position: absolute;
-            top: 3000px;
+            top: 2820px;
             left: 220px;
         }
         & #bag-coffe {
             position: absolute;
-            top: 3000px;
+            top: 2820px;
             left: 820px;
             width: 550px;
         }
         & #demo3 {
             position: absolute;
-            top: 3300px;
+            top: 3150px;
             left: 220px;
             width: 1150px;
         }
+}
+.material-symbols-outlined {
+    font-size: 80px;
+}
+    .service-icons{
+        & #airplane{
+            position: absolute;
+            top: 3600px;
+            left: 250px;
+            color: white;
+            width: 50px;
+        }
+    & #fd {
+        position: absolute;
+        top: 3700px;
+        left: 235px;
+        color: #fff;
+        font-family: 18px 'Oswald',sans-serif;
+        font-weight: bold;
     }
-    & #service-icons {
-        & #globo-icon {
-            position: absolute;
-            top: 3750px;
-            left: 300px;
-            width: 60px;
-            display: block;
-        }
-        & #globo-icon-2 {
-            position: absolute;
-            top: 3750px;
-            left: 300px;
-            width: 60px;
-            display: none;
-        }
-        & #free-delivery {
-            position: absolute;
-            top: 3820px;
-            left: 200px;
-            text-align: center;
-            font-family: 'Poppins', sans-serif 14px;
-            line-height: 18px;
-            letter-spacing: 0.8px;
-            color: #777777;
-            font-weight: 400;
-            text-transform: capitalize;
-            &  #fd {
-                font-weight: bold;
-                font-family: 'Oswald', sans-serif 14px;
-                color: rgba(0, 0, 0, 0.938);
-            }
-        }
-        & #hand-icon {
-            position: absolute;
-            top: 3750px;
-            left: 750px;
-            width: 55px;
-            display: block;
-        }
-        & #hand-icon-2 {
-            position: absolute;
-            top: 3750px;
-            left: 750px;
-            width: 55px;
-            display: none;
-        }
-        & #sale-discounts {
-            position: absolute;
-            top: 3820px;
-            left: 650px;
-            text-align: center;
-            font-family: 'Poppins', sans-serif 14px;
-            line-height: 18px;
-            letter-spacing: 0.8px;
-            color: #777777;
-            font-weight: 400;
-            text-transform: capitalize;
-        }
-        & #sd {
-            font-weight: bold;
-            font-family: 'Oswald', sans-serif 14px;
-            color: rgba(0, 0, 0, 0.938);
-        }
+    & #tx1-fd{
+        position: absolute;
+        top: 3730px;
+        left: 160px;
+        color: #fff;
+        font-family: 18px 'Poppins',sans-serif;
     }
-
-    #hover1-si:hover {
-        & #globo-icon {
-            position: absolute;
-            top: 3750px;
-            left: 300px;
-            width: 60px;
-            display: none;
-        }
-        & #globo-icon-2 {
-            position: absolute;
-            top: 3750px;
-            left: 300px;
-            width: 60px;
-            display: block;
-        }
-        & #free-delivery {
-            position: absolute;
-            top: 3820px;
-            left: 200px;
-            text-align: center;
-            font-family: 'Poppins', sans-serif 14px;
-            line-height: 18px;
-            letter-spacing: 0.8px;
-            color: #777777;
-            font-weight: 400;
-            text-transform: capitalize;
-            &  #fd {
-                font-weight: bold;
-                font-family: 'Oswald', sans-serif 14px;
-                color: #C69155;
-            }
-        }
+    & #money {
+        position: absolute;
+        top: 3600px;
+        left: 750px;
+        color: white;
+        width: 50px;
     }
-
-    & #hover2-si:hover {
-        #hand-icon {
+    & #mn {
+        position: absolute;
+        top: 3700px;
+        left: 755px;
+        color: #fff;
+        font-family: 18px 'Oswald',sans-serif;
+        font-weight: bold;
+    }
+    & #tx1-mn{
+        position: absolute;
+        top: 3730px;
+        left: 650px;
+        color: #fff;
+        font-family: 18px 'Poppins',sans-serif;
+    }
+    & #phone-icon {
+        position: absolute;
+        top: 3600px;
+        left: 1250px;
+        color: white;
+        width: 50px;
+    }
+    & #ph {
+        position: absolute;
+        top: 3700px;
+        left: 1240px;
+        color: #fff;
+        font-family: 18px 'Oswald',sans-serif;
+        font-weight: bold;
+    }
+    & #tx1-ph{
+        position: absolute;
+        top: 3730px;
+        left: 1180px;
+        color: #fff;
+        font-family: 18px 'Poppins',sans-serif;
+    }
+    }
+    
+    .airplane1:hover {
+        #airplane{
             position: absolute;
-            top: 3750px;
-            left: 750px;
-            width: 55px;
-            display: none;
-        }
-        & #hand-icon-2 {
-            position: absolute;
-            top: 3750px;
-            left: 750px;
-            width: 55px;
-            display: block;
-        }
-        & #sale-discounts {
-            position: absolute;
-            top: 3820px;
-            left: 650px;
-            text-align: center;
-            font-family: 'Poppins', sans-serif 14px;
-            line-height: 18px;
-            letter-spacing: 0.8px;
-            color: #777777;
-            font-weight: 400;
-            text-transform: capitalize;
-        }
-        & #sd {
-            font-weight: bold;
-            font-family: 'Oswald', sans-serif 14px;
+            top: 3600px;
+            left: 250px;
             color: #C69155;
+            width: 50px;
+        }
+        & #fd {
+        position: absolute;
+        top: 3700px;
+        left: 235px;
+        color: #C69155;
+        font-family: 18px 'Oswald',sans-serif;
+        font-weight: bold;
         }
     }
-
 }
 
+.money1:hover{
+    #money:hover {
+        position: absolute;
+        top: 3600px;
+        left: 750px;
+        color: #C69155;
+        width: 50px;
+    }
+    & #mn {
+        position: absolute;
+        top: 3700px;
+        left: 755px;
+        color: #C69155;
+        font-family: 18px 'Oswald',sans-serif;
+        font-weight: bold;
+    }
+}
+
+    .phone1:hover{
+        #phone-icon {
+            position: absolute;
+            top: 3600px;
+            left: 1250px;
+            color: #C69155;
+            width: 50px;
+        }
+        & #ph {
+            position: absolute;
+            top: 3700px;
+            left: 1240px;
+            color: #C69155;
+            font-family: 18px 'Oswald',sans-serif;
+            font-weight: bold;
+        }
+    }
+    
 }
