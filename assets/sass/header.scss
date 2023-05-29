@@ -1293,42 +1293,45 @@ body {
         font-weight: bold;
         }
     }
-}
-
-.money1:hover{
-    #money:hover {
-        position: absolute;
-        top: 3600px;
-        left: 750px;
-        color: #C69155;
-        width: 50px;
-    }
-    & #mn {
-        position: absolute;
-        top: 3700px;
-        left: 755px;
-        color: #C69155;
-        font-family: 18px 'Oswald',sans-serif;
-        font-weight: bold;
-    }
-}
-
-    .phone1:hover{
-        #phone-icon {
+    .money1:hover{
+        #money:hover {
             position: absolute;
             top: 3600px;
-            left: 1250px;
+            left: 750px;
             color: #C69155;
             width: 50px;
         }
-        & #ph {
+        & #mn {
             position: absolute;
             top: 3700px;
-            left: 1240px;
+            left: 755px;
             color: #C69155;
             font-family: 18px 'Oswald',sans-serif;
             font-weight: bold;
         }
+    }
+    
+        .phone1:hover{
+            #phone-icon {
+                position: absolute;
+                top: 3600px;
+                left: 1250px;
+                color: #C69155;
+                width: 50px;
+            }
+            & #ph {
+                position: absolute;
+                top: 3700px;
+                left: 1240px;
+                color: #C69155;
+                font-family: 18px 'Oswald',sans-serif;
+                font-weight: bold;
+            }
+        }
+}
+    .parte5{
+       background-image: url('assets/images/cafeteria.jpg');
+       background-position: right center;
     }
     
 }
